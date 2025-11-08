@@ -1,0 +1,18 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run: Peugeot → Excel",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/src/parse_peugeot.py",
+      "console": "integratedTerminal",
+      "args": [
+        "--input", "data/ID_Peugeot.html",
+        "--output", "out/categories.xlsx",
+        "--verbose"
+      ],
+      "justMyCode": true
+    }
+  ]
+}
